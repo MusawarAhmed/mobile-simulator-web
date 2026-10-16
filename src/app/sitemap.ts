@@ -4,7 +4,7 @@ import { getAllSupportArticles } from '@/data/supportArticles';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Use environment variable or fallback to production URL
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilesimulator.vercel.app';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mobile-simulator-web.vercel.app';
   const currentDate = new Date();
 
   const devices = getAllDevices();

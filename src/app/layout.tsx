@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mobile-simulator.vercel.app'),
+  metadataBase: new URL('https://mobile-simulator-web.vercel.app'),
   title: {
     default: 'Mobile Simulator — Responsive Testing Tool (77+ Devices)',
     template: '%s | Mobile Simulator'
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mobile-simulator.vercel.app',
+    url: 'https://mobile-simulator-web.vercel.app',
     title: 'Mobile Simulator — Responsive Web Testing Suite',
     description: 'Test responsive design on 77+ smartphones, tablets, and laptops. Accurate viewports, user agents, and transparent frame mockups.',
     siteName: 'Mobile Simulator',
