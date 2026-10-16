@@ -15,6 +15,20 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/subscription/:path*',
+        destination: '/support/subscription-doesnt-work-on-chrome',
+        permanent: false,
+      },
+      {
+        source: '/account/:path*',
+        destination: '/support/subscription-doesnt-work-on-chrome',
+        permanent: false,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
