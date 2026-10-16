@@ -45,6 +45,7 @@ export default function Footer() {
             <li><Link href="/support/media-queries-not-working" className="hover:text-white transition-colors">Media Queries Troubleshooting</Link></li>
             <li><Link href="/support/activate-shortcut" className="hover:text-white transition-colors">Keyboard Hotkeys Setup</Link></li>
             <li><Link href="/contact" className="hover:text-white transition-colors">Report a Bug / Suggestion</Link></li>
+            <li><a href="https://chromewebstore.google.com/detail/blue-print-seo/ncnkeccgljibjfeocaaalojilahfibnc" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-sky-300 font-medium transition-colors flex items-center gap-1"><span>Blue Print SEO Extension</span> &rarr;</a></li>
           </ul>
         </div>
       </div>
