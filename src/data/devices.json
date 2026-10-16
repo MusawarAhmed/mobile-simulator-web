@@ -1,0 +1,3544 @@
+[
+  {
+    "slug": "apple-watch-serie-6",
+    "name": "Apple Watch Serie 6",
+    "full_name": "Apple Watch Series 6 (40mm)",
+    "display_name": "Apple Watch Series 6 (40mm)",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "others",
+    "spec_category": "watch",
+    "release_year": 2020,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 324,
+      "height": 394
+    },
+    "screen": {
+      "inches": 1.57,
+      "cm": 3.99,
+      "ppi": 325,
+      "ratio": "11:9"
+    },
+    "viewport": {
+      "width": 162,
+      "height": 197,
+      "left": 26,
+      "top": 96,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "watchOS",
+      "version": "7.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 800,
+      "ratio": 0.5
+    },
+    "ua": "atc/1.0 watchOS/8 model/Watch6,2 hwp/t8301 build/18T567 (6; dt:226)",
+    "order": 0
+  },
+  {
+    "slug": "samsung-galaxy-s20",
+    "name": "Samsung Galaxy S20",
+    "full_name": "Samsung Galaxy S20",
+    "display_name": "Samsung Galaxy S20",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1440,
+      "height": 3200
+    },
+    "screen": {
+      "inches": 6.4,
+      "cm": 16.26,
+      "ppi": 563,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800,
+      "left": 11,
+      "top": 15,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": true
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-G980F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 1
+  },
+  {
+    "slug": "xiaomi-mi-11i",
+    "name": "Xiaomi Mi 11i",
+    "full_name": "Xiaomi Mi 11i",
+    "display_name": "Xiaomi Mi 11i",
+    "brand": "xiaomi",
+    "brand_label": "Xiaomi",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 16.94,
+      "ppi": 393,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800,
+      "left": 18,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.91
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; M2012K11G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 2
+  },
+  {
+    "slug": "huawei-p30-pro",
+    "name": "Huawei P30 PRO",
+    "full_name": "Huawei P30 PRO",
+    "display_name": "Huawei P30 PRO",
+    "brand": "huawei",
+    "brand_label": "Huawei",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2019,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "screen": {
+      "inches": 6.5,
+      "cm": 16.43,
+      "ppi": 409,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 780,
+      "left": 8,
+      "top": 14,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": true
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.98
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; VOG-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 3
+  },
+  {
+    "slug": "google-pixel-5",
+    "name": "Google Pixel5",
+    "full_name": "Google Pixel 5",
+    "display_name": "Google Pixel 5",
+    "brand": "google",
+    "brand_label": "Google",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 2.75,
+    "devicePixelRatio": 2.75,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "screen": {
+      "inches": 6,
+      "cm": 15.24,
+      "ppi": 432,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 393,
+      "height": 851,
+      "left": 21,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 4
+  },
+  {
+    "slug": "oneplus-nord-2",
+    "name": "Oneplus Nord 2",
+    "full_name": "OnePlus Nord 2",
+    "display_name": "OnePlus Nord 2",
+    "brand": "oneplus",
+    "brand_label": "OnePlus",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 2.625,
+    "devicePixelRatio": 2.625,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "screen": {
+      "inches": 6.4,
+      "cm": 16.36,
+      "ppi": 408,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 915,
+      "left": 20,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.98
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; DN2103) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 5
+  },
+  {
+    "slug": "samsung-galaxy-fold2",
+    "name": "Galaxy Fold2",
+    "full_name": "Samsung Galaxy Z Fold 2 (2020)",
+    "display_name": "Samsung Galaxy Z Fold 2",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "others",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 1768,
+      "height": 2208
+    },
+    "screen": {
+      "inches": 7.6,
+      "cm": 19.3,
+      "ppi": 373,
+      "ratio": "11:9"
+    },
+    "viewport": {
+      "width": 884,
+      "height": 1104,
+      "left": 17,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-F916B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 6
+  },
+  {
+    "slug": "apple-iphone-5",
+    "name": "iPhone 5",
+    "full_name": "Apple iPhone 5",
+    "display_name": "Apple iPhone 5",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2012,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 640,
+      "height": 1136
+    },
+    "screen": {
+      "inches": 4,
+      "cm": 10.16,
+      "ppi": 326,
+      "ratio": "16:9"
+    },
+    "viewport": {
+      "width": 320,
+      "height": 568,
+      "left": 32,
+      "top": 116,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "3G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.76
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 7
+  },
+  {
+    "slug": "apple-iphone-se",
+    "name": "iPhone SE 2016",
+    "full_name": "Apple iPhone SE (2018)",
+    "display_name": "Apple iPhone SE",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2018,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 640,
+      "height": 1136
+    },
+    "screen": {
+      "inches": 4,
+      "cm": 10.16,
+      "ppi": 326,
+      "ratio": "16:9"
+    },
+    "viewport": {
+      "width": 320,
+      "height": 568,
+      "left": 26,
+      "top": 93,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "3G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.8
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 8
+  },
+  {
+    "slug": "apple-iphone-x",
+    "name": "iPhone X",
+    "full_name": "Apple iPhone X (2018)",
+    "display_name": "Apple iPhone X",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2018,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1125,
+      "height": 2436
+    },
+    "screen": {
+      "inches": 5.8,
+      "cm": 14.73,
+      "ppi": 463,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "left": 27,
+      "top": 24,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 9
+  },
+  {
+    "slug": "apple-iphone-xr",
+    "name": "iPhone XR 2018",
+    "full_name": "Apple iPhone XR ",
+    "display_name": "Apple iPhone XR",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2018,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 828,
+      "height": 1792
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 326,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 414,
+      "height": 896,
+      "left": 38,
+      "top": 36,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.94
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 10
+  },
+  {
+    "slug": "apple-ipad-mini",
+    "name": "iPad Mini",
+    "full_name": "Apple iPad Mini (6th Gen) (2021)",
+    "display_name": "Apple iPad Mini (6th Gen)",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "tablet",
+    "spec_category": "tablet",
+    "release_year": 2021,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 1536,
+      "height": 2048
+    },
+    "screen": {
+      "inches": 7.9,
+      "cm": 20.07,
+      "ppi": 324,
+      "ratio": "4:3"
+    },
+    "viewport": {
+      "width": 768,
+      "height": 1024,
+      "left": 48,
+      "top": 139,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iPadOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1500,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (iPad; CPU OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 11
+  },
+  {
+    "slug": "apple-ipad-air-4",
+    "name": "iPad Air 4",
+    "full_name": "Apple iPad Air 4 (2020)",
+    "display_name": "Apple iPad Air 4",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "tablet",
+    "spec_category": "tablet",
+    "release_year": 2020,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 1640,
+      "height": 2360
+    },
+    "screen": {
+      "inches": 9.7,
+      "cm": 24.6,
+      "ppi": 296,
+      "ratio": "13:9"
+    },
+    "viewport": {
+      "width": 820,
+      "height": 1180,
+      "left": 55,
+      "top": 57,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iPadOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1500,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPad; CPU OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 12
+  },
+  {
+    "slug": "apple-ipad-pro-11-2018",
+    "name": "iPad PRO 11",
+    "full_name": "Apple iPad PRO 11\" (3rd Gen) (2018)",
+    "display_name": "Apple iPad PRO 11\" (3rd Gen)",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "tablet",
+    "spec_category": "tablet",
+    "release_year": 2018,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 1668,
+      "height": 2388
+    },
+    "screen": {
+      "inches": 11,
+      "cm": 27.94,
+      "ppi": 265,
+      "ratio": "13:9"
+    },
+    "viewport": {
+      "width": 834,
+      "height": 1194,
+      "left": 48,
+      "top": 50,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iPadOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1500,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPad; CPU OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 13
+  },
+  {
+    "slug": "samsung-galaxy-tab-s7",
+    "name": "Galaxy Tab S7",
+    "full_name": "Samsung Galaxy Tab S7",
+    "display_name": "Samsung Galaxy Tab S7",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "tablet",
+    "spec_category": "tablet",
+    "release_year": 2020,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 1600,
+      "height": 2560
+    },
+    "screen": {
+      "inches": 11,
+      "cm": 27.94,
+      "ppi": 274,
+      "ratio": "16:10"
+    },
+    "viewport": {
+      "width": 800,
+      "height": 1280,
+      "left": 46,
+      "top": 46,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1500,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 14; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.137 Safari/537.36",
+    "order": 14
+  },
+  {
+    "slug": "macbook-air",
+    "name": "Macbook Air",
+    "full_name": "Apple MacBook Air 2020 13\"",
+    "display_name": "Apple MacBook Air 2020 13\"",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": 2020,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 2560,
+      "height": 1600
+    },
+    "screen": {
+      "inches": 13.3,
+      "cm": 33.78,
+      "ppi": 227,
+      "ratio": "16:10"
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 800,
+      "left": 183,
+      "top": 54,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "macOS",
+      "version": "11.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": false,
+      "maxHeight": 1500,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15",
+    "order": 15
+  },
+  {
+    "slug": "dell-latitude-14-3420",
+    "name": "Dell Latitude",
+    "full_name": "Dell Latitude 3420 14\"",
+    "display_name": "Dell Latitude 3420 14\"",
+    "brand": "dell",
+    "brand_label": "Dell",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": null,
+    "pixel_density": 1,
+    "devicePixelRatio": 1,
+    "resolution": {
+      "width": 1440,
+      "height": 809
+    },
+    "screen": {
+      "inches": 14,
+      "cm": 35.56,
+      "ppi": 118,
+      "ratio": "16:9"
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 809,
+      "left": 174,
+      "top": 82,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "Windows",
+      "version": "11.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": false,
+      "maxHeight": 1500,
+      "ratio": 0.98
+    },
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.114 Safari/537.36",
+    "order": 16
+  },
+  {
+    "slug": "apple-iphone-11",
+    "name": "iPhone 11",
+    "full_name": "Apple iPhone 11",
+    "display_name": "Apple iPhone 11",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2019,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 828,
+      "height": 1792
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 326,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 414,
+      "height": 896,
+      "left": 37,
+      "top": 36,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.95
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 17
+  },
+  {
+    "slug": "apple-iphone-11-pro",
+    "name": "iPhone 11 PRO",
+    "full_name": "Apple iPhone 11 Pro",
+    "display_name": "Apple iPhone 11 Pro",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2019,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1125,
+      "height": 2436
+    },
+    "screen": {
+      "inches": 5.8,
+      "cm": 14.73,
+      "ppi": 458,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "left": 29,
+      "top": 25,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.91
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 18
+  },
+  {
+    "slug": "apple-iphone-11-pro-max",
+    "name": "iPhone 11 PRO MAX",
+    "full_name": "Apple iPhone 11 Pro Max",
+    "display_name": "Apple iPhone 11 Pro Max",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2019,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1242,
+      "height": 2688
+    },
+    "screen": {
+      "inches": 6.5,
+      "cm": 16.51,
+      "ppi": 458,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 414,
+      "height": 896,
+      "left": 29,
+      "top": 26,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 19
+  },
+  {
+    "slug": "apple-iphone-12-mini",
+    "name": "iPhone 12 Mini",
+    "full_name": "Apple iPhone 12 Mini",
+    "display_name": "Apple iPhone 12 Mini",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "screen": {
+      "inches": 5.4,
+      "cm": 13.71,
+      "ppi": 477,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 780,
+      "left": 23,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.82
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 20
+  },
+  {
+    "slug": "apple-iphone-12",
+    "name": "iPhone 12 (iOS 14)",
+    "full_name": "Apple iPhone 12",
+    "display_name": "Apple iPhone 12",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 457,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "left": 24,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.91
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 21
+  },
+  {
+    "slug": "apple-iphone-12-pro",
+    "name": "iPhone 12 PRO",
+    "full_name": "Apple iPhone 12 Pro",
+    "display_name": "Apple iPhone 12 Pro",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 460,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "left": 24,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 22
+  },
+  {
+    "slug": "apple-iphone-12-pro-max",
+    "name": "iPhone 12 PRO MAX",
+    "full_name": "Apple iPhone 12 Pro Max",
+    "display_name": "Apple iPhone 12 Pro Max",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1284,
+      "height": 2778
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 458,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 428,
+      "height": 926,
+      "left": 25,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "14.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "order": 23
+  },
+  {
+    "slug": "apple-iphone-13-mini-2021",
+    "name": "iPhone 13 Mini",
+    "full_name": "Apple iPhone 13 Mini (2021)",
+    "display_name": "Apple iPhone 13 Mini",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "screen": {
+      "inches": 5.4,
+      "cm": 13.71,
+      "ppi": 477,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "left": 24,
+      "top": 19,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.82
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 24
+  },
+  {
+    "slug": "apple-iphone-13-2021",
+    "name": "iPhone 13 (iOS 16)",
+    "full_name": "Apple iPhone 13 (2021)",
+    "display_name": "Apple iPhone 13",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 457,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "left": 26,
+      "top": 22,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.91
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 25
+  },
+  {
+    "slug": "apple-iphone-13-pro-2021",
+    "name": "iPhone 13 PRO",
+    "full_name": "Apple iPhone 13 PRO (2021)",
+    "display_name": "Apple iPhone 13 PRO",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 457,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "left": 23,
+      "top": 18,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 26
+  },
+  {
+    "slug": "apple-iphone-13-pro-max-2021",
+    "name": "iPhone 13 PRO MAX",
+    "full_name": "Apple iPhone 13 PRO MAX (2021)",
+    "display_name": "Apple iPhone 13 PRO MAX",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1284,
+      "height": 2778
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17,
+      "ppi": 457,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 428,
+      "height": 926,
+      "left": 28,
+      "top": 24,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 27
+  },
+  {
+    "slug": "apple-iphone-14-2022",
+    "name": "iPhone 14 (iOS 16)",
+    "full_name": "Apple iPhone 14 (2022)",
+    "display_name": "Apple iPhone 14",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 457,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "left": 23,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 28
+  },
+  {
+    "slug": "apple-iphone-14-max-2022",
+    "name": "iPhone 14 Plus",
+    "full_name": "Apple iPhone 14 Plus (2022)",
+    "display_name": "Apple iPhone 14 Plus",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1284,
+      "height": 2778
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 457,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 428,
+      "height": 926,
+      "left": 26,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 29
+  },
+  {
+    "slug": "apple-iphone-14-pro-2022",
+    "name": "iPhone 14 PRO",
+    "full_name": "Apple iPhone 14 PRO (2022)",
+    "display_name": "Apple iPhone 14 PRO",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 461,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "left": 23,
+      "top": 21,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 30
+  },
+  {
+    "slug": "apple-iphone-14-pro-max-2022",
+    "name": "iPhone 14 PRO MAX",
+    "full_name": "Apple iPhone 14 PRO MAX (2022)",
+    "display_name": "Apple iPhone 14 PRO MAX",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 460,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 428,
+      "height": 928,
+      "left": 26,
+      "top": 23,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+    "order": 31
+  },
+  {
+    "slug": "apple-iphone-15-2023",
+    "name": "iPhone 15 (iOS 26)",
+    "full_name": "Apple iPhone 15 (2023)",
+    "display_name": "Apple iPhone 15",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2023,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 461,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 393,
+      "height": 852,
+      "left": 21,
+      "top": 17,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 32
+  },
+  {
+    "slug": "apple-iphone-15-plus-2023",
+    "name": "iPhone 15 Plus",
+    "full_name": "Apple iPhone 15 Plus (2023)",
+    "display_name": "Apple iPhone 15 Plus",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2023,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 460,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 430,
+      "height": 932,
+      "left": 23,
+      "top": 18,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 33
+  },
+  {
+    "slug": "apple-iphone-15-pro-2023",
+    "name": "iPhone 15 PRO",
+    "full_name": "Apple iPhone 15 PRO (2023)",
+    "display_name": "Apple iPhone 15 PRO",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2023,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 461,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 393,
+      "height": 852,
+      "left": 20,
+      "top": 16,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 34
+  },
+  {
+    "slug": "apple-iphone-15-pro-max-2023",
+    "name": "iPhone 15 PRO MAX",
+    "full_name": "Apple iPhone 15 PRO MAX (2023)",
+    "display_name": "Apple iPhone 15 PRO MAX",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2023,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 460,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 430,
+      "height": 932,
+      "left": 19,
+      "top": 16,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 35
+  },
+  {
+    "slug": "apple-iphone-16-2024",
+    "name": "iPhone 16 (iOS 26)",
+    "full_name": "Apple iPhone 16 (2024)",
+    "display_name": "Apple iPhone 16",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2024,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 461,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 393,
+      "height": 852,
+      "left": 23,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 36
+  },
+  {
+    "slug": "apple-iphone-16-plus-2024",
+    "name": "iPhone 16 Plus",
+    "full_name": "Apple iPhone 16 Plus (2024)",
+    "display_name": "Apple iPhone 16 Plus",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2024,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 460,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 430,
+      "height": 932,
+      "left": 25,
+      "top": 22,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 37
+  },
+  {
+    "slug": "apple-iphone-16-pro-max-2024",
+    "name": "iPhone 16 PRO MAX",
+    "full_name": "Apple iPhone 16 PRO MAX (2024)",
+    "display_name": "Apple iPhone 16 PRO MAX",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2024,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1320,
+      "height": 2868
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 471,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 440,
+      "height": 956,
+      "left": 21,
+      "top": 18,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 38
+  },
+  {
+    "slug": "apple-iphone-17-2025",
+    "name": "iPhone 17 (iOS 26)",
+    "full_name": "Apple iPhone 17 (2025)",
+    "display_name": "Apple iPhone 17",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2025,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1206,
+      "height": 2622
+    },
+    "screen": {
+      "inches": 6.3,
+      "cm": 16,
+      "ppi": 458,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 402,
+      "height": 874,
+      "left": 18,
+      "top": 15,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 39
+  },
+  {
+    "slug": "apple-iphone-air-2025",
+    "name": "iPhone Air",
+    "full_name": "Apple iPhone Air (2025)",
+    "display_name": "Apple iPhone Air",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2025,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1260,
+      "height": 2736
+    },
+    "screen": {
+      "inches": 6.5,
+      "cm": 16.51,
+      "ppi": 463,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 420,
+      "height": 912,
+      "left": 18,
+      "top": 15,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.96
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 40
+  },
+  {
+    "slug": "apple-iphone-17-pro-2025",
+    "name": "iPhone 17 PRO",
+    "full_name": "Apple iPhone 17 PRO (2025)",
+    "display_name": "Apple iPhone 17 PRO",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2025,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1206,
+      "height": 2622
+    },
+    "screen": {
+      "inches": 6.3,
+      "cm": 16,
+      "ppi": 458,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 402,
+      "height": 873,
+      "left": 19,
+      "top": 15,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 41
+  },
+  {
+    "slug": "apple-iphone-17-pro-max-2025",
+    "name": "iPhone 17 PRO MAX",
+    "full_name": "Apple iPhone 17 PRO MAX (2025)",
+    "display_name": "Apple iPhone 17 PRO MAX",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2025,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1320,
+      "height": 2868
+    },
+    "screen": {
+      "inches": 6.9,
+      "cm": 17.53,
+      "ppi": 458,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 440,
+      "height": 956,
+      "left": 21,
+      "top": 17,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 42
+  },
+  {
+    "slug": "apple-macbook-pro-16-2021",
+    "name": "Macbook PRO 16 2021",
+    "full_name": "Apple Macbook PRO 16\" (2021)",
+    "display_name": "Apple Macbook PRO 16\"",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": 2021,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 3456,
+      "height": 2234
+    },
+    "screen": {
+      "inches": 16.2,
+      "cm": 41.15,
+      "ppi": 254,
+      "ratio": "14:9"
+    },
+    "viewport": {
+      "width": 1728,
+      "height": 1117,
+      "left": 197,
+      "top": 65,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "macOS",
+      "version": "15.3"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "Wifi",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": false,
+      "maxHeight": 2000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.114 Safari/537.36",
+    "order": 43
+  },
+  {
+    "slug": "apple-macbook-neo-2026",
+    "name": "Macbook Neo 2026",
+    "full_name": "Macbook Neo 2026",
+    "display_name": "Macbook Neo 2026",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": 2026,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 2408,
+      "height": 1506
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "16:10"
+    },
+    "viewport": {
+      "width": 1204,
+      "height": 753,
+      "left": 146,
+      "top": 41,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "macOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "Wifi",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 2000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_7_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+    "order": 44
+  },
+  {
+    "slug": "samsung-galaxy-z-flip3-2021",
+    "name": "Galaxy Z Flip3",
+    "full_name": "Samsung Galaxy Z Flip3 (2021)",
+    "display_name": "Samsung Galaxy Z Flip3",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2640
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 426,
+      "ratio": "22:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 880,
+      "left": 25,
+      "top": 24,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.97
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-F711B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 45
+  },
+  {
+    "slug": "oppo-find-x3-pro",
+    "name": "OPPO Find X3 PRO",
+    "full_name": "OPPO Find X3 PRO",
+    "display_name": "OPPO Find X3 PRO",
+    "brand": "oppo",
+    "brand_label": "OPPO",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 4,
+    "devicePixelRatio": 4,
+    "resolution": {
+      "width": 1440,
+      "height": 3216
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 526,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 804,
+      "left": 10,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": true
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.89
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; CPH2173) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 46
+  },
+  {
+    "slug": "microsoft-surface-duo",
+    "name": "Microsoft Surface Duo",
+    "full_name": "Microsoft Surface Duo",
+    "display_name": "Microsoft Surface Duo",
+    "brand": "microsoft",
+    "brand_label": "Microsoft",
+    "category": "tablet",
+    "spec_category": "tablet",
+    "release_year": 2020,
+    "pixel_density": 2.5,
+    "devicePixelRatio": 2.5,
+    "resolution": {
+      "width": 2785,
+      "height": 1762
+    },
+    "screen": {
+      "inches": 5.6,
+      "cm": 14.22,
+      "ppi": 588,
+      "ratio": "14:9"
+    },
+    "viewport": {
+      "width": 1114,
+      "height": 705,
+      "left": 25,
+      "top": 91,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "Wifi",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1200,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Surface Duo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36 EdgA/131.0.0.0",
+    "order": 47
+  },
+  {
+    "slug": "samsung-galaxy-a12-2021",
+    "name": "Galaxy A12",
+    "full_name": "Samsung Galaxy A12",
+    "display_name": "Samsung Galaxy A12",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 720,
+      "height": 1600
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800,
+      "left": 17,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.98
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-A125M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 48
+  },
+  {
+    "slug": "samsung-galaxy-s21-ultra",
+    "name": "Galaxy S21 Ultra",
+    "full_name": "Samsung Galaxy S21 Ultra",
+    "display_name": "Samsung Galaxy S21 Ultra",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 4,
+    "devicePixelRatio": 4,
+    "resolution": {
+      "width": 1440,
+      "height": 3200
+    },
+    "screen": {
+      "inches": 6.8,
+      "cm": 17.3,
+      "ppi": 516,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800,
+      "left": 10,
+      "top": 12,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": true
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.87
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 49
+  },
+  {
+    "slug": "google-pixel-6-pro",
+    "name": "Google Pixel 6 PRO",
+    "full_name": "Google Pixel 6 PRO",
+    "display_name": "Google Pixel 6 PRO",
+    "brand": "google",
+    "brand_label": "Google",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2021,
+    "pixel_density": 4,
+    "devicePixelRatio": 4,
+    "resolution": {
+      "width": 1440,
+      "height": 3120
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17.02,
+      "ppi": 513,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 780,
+      "left": 10,
+      "top": 18,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": true
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.87
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Pixel 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 50
+  },
+  {
+    "slug": "xiaomi-12-2022",
+    "name": "Xiaomi 12",
+    "full_name": "Xiaomi 12 2022",
+    "display_name": "Xiaomi 12 2022",
+    "brand": "xiaomi",
+    "brand_label": "Xiaomi",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 16.94,
+      "ppi": 393,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800,
+      "left": 11,
+      "top": 15,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.95
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Xiaomi 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 51
+  },
+  {
+    "slug": "samsung-galaxy-note20-ultra",
+    "name": "Galaxy Note20 Ultra",
+    "full_name": "Samsung Galaxy Note20 Ultra",
+    "display_name": "Samsung Galaxy Note20 Ultra",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2020,
+    "pixel_density": 3.5,
+    "devicePixelRatio": 3.5,
+    "resolution": {
+      "width": 1440,
+      "height": 3088
+    },
+    "screen": {
+      "inches": 6.9,
+      "cm": 17.53,
+      "ppi": 496,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 883,
+      "left": 4,
+      "top": 11,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": true
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.96
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-N986B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 52
+  },
+  {
+    "slug": "samsung-galaxy-s22-2022",
+    "name": "Galaxy S22",
+    "full_name": "Samsung Galaxy S22 (2022)",
+    "display_name": "Samsung Galaxy S22",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "screen": {
+      "inches": 6.1,
+      "cm": 15.49,
+      "ppi": 422,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 780,
+      "left": 16,
+      "top": 16,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.91
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 53
+  },
+  {
+    "slug": "samsung-galaxy-s22-plus-2022",
+    "name": "Galaxy S22+",
+    "full_name": "Samsung Galaxy S22+ (2022)",
+    "display_name": "Samsung Galaxy S22+",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "screen": {
+      "inches": 6.6,
+      "cm": 16.76,
+      "ppi": 390,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 780,
+      "left": 16,
+      "top": 16,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.98
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-S906B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 54
+  },
+  {
+    "slug": "samsung-galaxy-s22-ultra-2022",
+    "name": "Galaxy S22 ULTRA",
+    "full_name": "Samsung Galaxy S22 ULTRA (2022)",
+    "display_name": "Samsung Galaxy S22 ULTRA",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2022,
+    "pixel_density": 4,
+    "devicePixelRatio": 4,
+    "resolution": {
+      "width": 1440,
+      "height": 3088
+    },
+    "screen": {
+      "inches": 6.8,
+      "cm": 17.27,
+      "ppi": 501,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 772,
+      "left": 4,
+      "top": 5,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": true
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 55
+  },
+  {
+    "slug": "google-pixel-8-2024",
+    "name": "Google Pixel 8",
+    "full_name": "Google Pixel 8 (2024)",
+    "display_name": "Google Pixel 8",
+    "brand": "google",
+    "brand_label": "Google",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2024,
+    "pixel_density": 2.625,
+    "devicePixelRatio": 2.625,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 915,
+      "left": 20,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 56
+  },
+  {
+    "slug": "samsung-galaxy-s24-2024",
+    "name": "Samsung Galaxy S24",
+    "full_name": "Samsung Galaxy S24 (2024)",
+    "display_name": "Samsung Galaxy S24",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2024,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 780,
+      "left": 14,
+      "top": 14,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-S921B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 57
+  },
+  {
+    "slug": "samsung-galaxy-s24-ultra-2024",
+    "name": "Galaxy S24 ULTRA",
+    "full_name": "Samsung Galaxy S24 Ultra (2024)",
+    "display_name": "Samsung Galaxy S24 Ultra",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2024,
+    "pixel_density": 2.8125,
+    "devicePixelRatio": 2.8125,
+    "resolution": {
+      "width": 1440,
+      "height": 3120
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 384,
+      "height": 832,
+      "left": 18,
+      "top": 15,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-S928B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 58
+  },
+  {
+    "slug": "samsung-galaxy-a17-2025",
+    "name": "Samsung Galaxy A17",
+    "full_name": "Samsung Galaxy A17",
+    "display_name": "Samsung Galaxy A17",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2025,
+    "pixel_density": 2.625,
+    "devicePixelRatio": 2.625,
+    "resolution": {
+      "width": 1082,
+      "height": 2342
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 892,
+      "left": 21,
+      "top": 22,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Samsung Galaxy A17) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 59
+  },
+  {
+    "slug": "samsung-galaxy-s26-ultra-2026",
+    "name": "Galaxy S26 ULTRA",
+    "full_name": "Galaxy S26 ULTRA",
+    "display_name": "Galaxy S26 ULTRA",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 4,
+    "devicePixelRatio": 4,
+    "resolution": {
+      "width": 1648,
+      "height": 3564
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 891,
+      "left": 13,
+      "top": 12,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; SM-S948B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
+    "order": 60
+  },
+  {
+    "slug": "apple-imac-24-inch-2021",
+    "name": "Apple iMac 24\"",
+    "full_name": "iMac 24\" (2021)",
+    "display_name": "iMac 24\"",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": 2021,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 4096,
+      "height": 2304
+    },
+    "screen": {
+      "inches": 9.3,
+      "cm": 23.5,
+      "ppi": 254,
+      "ratio": "16:9"
+    },
+    "viewport": {
+      "width": 2048,
+      "height": 1152,
+      "left": 54,
+      "top": 54,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "macOS",
+      "version": "15.3"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": false,
+      "maxHeight": 2000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.114 Safari/537.36",
+    "order": 61
+  },
+  {
+    "slug": "samsung-smart-tv",
+    "name": "Samsung Smart TV",
+    "full_name": "Samsung Smart TV",
+    "display_name": "Samsung Smart TV",
+    "brand": "samsung",
+    "brand_label": "Samsung",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": null,
+    "pixel_density": 1,
+    "devicePixelRatio": 1,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "16:9"
+    },
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "left": 11,
+      "top": 12,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "Android",
+      "version": "12.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1500,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 5.5) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.5 Chrome/69.0.3497.106 TV Safari/537.36",
+    "order": 62
+  },
+  {
+    "slug": "self-service-kiosk",
+    "name": "Self service kiosk",
+    "full_name": "Self service kiosk",
+    "display_name": "Self service kiosk",
+    "brand": "generic",
+    "brand_label": "Generic",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": null,
+    "pixel_density": 1,
+    "devicePixelRatio": 1,
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "16:9"
+    },
+    "viewport": {
+      "width": 1080,
+      "height": 1920,
+      "left": 146,
+      "top": 150,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 2000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Kiosk) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Safari/537.36",
+    "order": 63
+  },
+  {
+    "slug": "zebra-mc330",
+    "name": "Zebra MC330",
+    "full_name": "Zebra MC330",
+    "display_name": "Zebra MC330",
+    "brand": "zebra",
+    "brand_label": "Zebra",
+    "category": "others",
+    "spec_category": "smartphone",
+    "release_year": null,
+    "pixel_density": 1,
+    "devicePixelRatio": 1,
+    "resolution": {
+      "width": 480,
+      "height": 800
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "5:3"
+    },
+    "viewport": {
+      "width": 480,
+      "height": 800,
+      "left": 94,
+      "top": 221,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "10.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 10; MC3300) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 64
+  },
+  {
+    "slug": "zebra-tc78",
+    "name": "Zebra TC78",
+    "full_name": "Zebra TC78",
+    "display_name": "Zebra TC78",
+    "brand": "zebra",
+    "brand_label": "Zebra",
+    "category": "others",
+    "spec_category": "smartphone",
+    "release_year": null,
+    "pixel_density": 2.625,
+    "devicePixelRatio": 2.625,
+    "resolution": {
+      "width": 1082,
+      "height": 2147
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "18:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 818,
+      "left": 49,
+      "top": 128,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "13.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 13; TC78) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 65
+  },
+  {
+    "slug": "sonoff-nspanel-pro",
+    "name": "Sonoff NSPanel Pro",
+    "full_name": "Sonoff NSPanel Pro",
+    "display_name": "Sonoff NSPanel Pro",
+    "brand": "sonoff",
+    "brand_label": "Sonoff",
+    "category": "others",
+    "spec_category": "computer",
+    "release_year": null,
+    "pixel_density": 1,
+    "devicePixelRatio": 1,
+    "resolution": {
+      "width": 480,
+      "height": 480
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "9:9"
+    },
+    "viewport": {
+      "width": 480,
+      "height": 480,
+      "left": 42,
+      "top": 45,
+      "enableRotation": false
+    },
+    "os": {
+      "name": "Android",
+      "version": "8.1.0"
+    },
+    "features": {
+      "keyboard": false,
+      "network": "WIFI",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 400,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 8.1.0; NSPanel Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Safari/537.36",
+    "order": 66
+  },
+  {
+    "slug": "non-branded-android-smartphone",
+    "name": "Non branded smartphone",
+    "full_name": "Generic device on Android",
+    "display_name": "Generic device on Android",
+    "brand": "generic",
+    "brand_label": "Generic",
+    "category": "others",
+    "spec_category": "smartphone",
+    "release_year": null,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 720,
+      "height": 1600
+    },
+    "screen": {
+      "inches": 6.7,
+      "cm": 17,
+      "ppi": 262,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 800,
+      "left": 17,
+      "top": 18,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.91
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Generic Smartphone) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 67
+  },
+  {
+    "slug": "infinix-hot-70-2026",
+    "name": "Infinix Hot 70",
+    "full_name": "Infinix Hot 70",
+    "display_name": "Infinix Hot 70",
+    "brand": "infinix",
+    "brand_label": "Infinix",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 2,
+    "devicePixelRatio": 2,
+    "resolution": {
+      "width": 720,
+      "height": 1576
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 360,
+      "height": 788,
+      "left": 18,
+      "top": 22,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "4G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Infinix Hot 70) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 68
+  },
+  {
+    "slug": "motorola-razr-70-ultra-2026",
+    "name": "Motorola Razr 70 Ultra",
+    "full_name": "Motorola Razr 70 Ultra",
+    "display_name": "Motorola Razr 70 Ultra",
+    "brand": "motorola",
+    "brand_label": "Motorola",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1236,
+      "height": 3024
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "22:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 1008,
+      "left": 28,
+      "top": 28,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.98
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Motorola Razr 70 Ultra) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 69
+  },
+  {
+    "slug": "google-pixel-10-2026",
+    "name": "Google Pixel 10",
+    "full_name": "Google Pixel 10",
+    "display_name": "Google Pixel 10",
+    "brand": "google",
+    "brand_label": "Google",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 2.625,
+    "devicePixelRatio": 2.625,
+    "resolution": {
+      "width": 1082,
+      "height": 2426
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 924,
+      "left": 22,
+      "top": 23,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Google Pixel 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 70
+  },
+  {
+    "slug": "google-pixel-10-pro-2026",
+    "name": "Google Pixel 10 PRO",
+    "full_name": "Google Pixel 10 PRO",
+    "display_name": "Google Pixel 10 PRO",
+    "brand": "google",
+    "brand_label": "Google",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 3.125,
+    "devicePixelRatio": 3.125,
+    "resolution": {
+      "width": 1281,
+      "height": 2850
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "20:9"
+    },
+    "viewport": {
+      "width": 410,
+      "height": 912,
+      "left": 18,
+      "top": 17,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.9
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Google Pixel 10 PRO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 71
+  },
+  {
+    "slug": "google-pixel-10-pro-fold-2026",
+    "name": "Pixel 10 Fold",
+    "full_name": "Pixel 10 Fold",
+    "display_name": "Pixel 10 Fold",
+    "brand": "google",
+    "brand_label": "Google",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 2.625,
+    "devicePixelRatio": 2.625,
+    "resolution": {
+      "width": 1082,
+      "height": 2365
+    },
+    "screen": {
+      "inches": null,
+      "cm": null,
+      "ppi": null,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 412,
+      "height": 901,
+      "left": 31,
+      "top": 25,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "Android",
+      "version": "16.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (Linux; Android 16; Google Pixel 10 Pro Fold) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.260 Mobile Safari/537.36",
+    "order": 72
+  },
+  {
+    "slug": "apple-iphone-18-pro-2026",
+    "name": "iPhone 18 PRO",
+    "full_name": "Apple iPhone 18 PRO (2026)",
+    "display_name": "Apple iPhone 18 PRO",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1206,
+      "height": 2619
+    },
+    "screen": {
+      "inches": 6.3,
+      "cm": 16,
+      "ppi": 460,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 402,
+      "height": 873,
+      "left": 19,
+      "top": 15,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 0.92
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 73
+  },
+  {
+    "slug": "apple-iphone-18-pro-max-2026",
+    "name": "iPhone 18 PRO MAX",
+    "full_name": "Apple iPhone 18 PRO MAX (2026)",
+    "display_name": "Apple iPhone 18 PRO MAX",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1320,
+      "height": 2868
+    },
+    "screen": {
+      "inches": 6.9,
+      "cm": 17.5,
+      "ppi": 460,
+      "ratio": "19.5:9"
+    },
+    "viewport": {
+      "width": 440,
+      "height": 956,
+      "left": 21,
+      "top": 17,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "26.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 1000,
+      "ratio": 1
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "order": 74
+  },
+  {
+    "slug": "apple-iphone-duo-folded-2026",
+    "name": "iPhone Duo",
+    "full_name": "Apple iPhone Duo (2026)",
+    "display_name": "Apple iPhone Duo",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 1398,
+      "height": 2034
+    },
+    "screen": {
+      "inches": 5.4,
+      "cm": 13.6,
+      "ppi": 460,
+      "ratio": "14.5:10"
+    },
+    "viewport": {
+      "width": 466,
+      "height": 678,
+      "left": 27,
+      "top": 20,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "27.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 900,
+      "ratio": 0.7
+    },
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Mobile/15E148 Safari/604.1",
+    "order": 75
+  },
+  {
+    "slug": "apple-iphone-duo-unfolded-2026",
+    "name": "iPhone Duo",
+    "full_name": "Apple iPhone Duo (2026)",
+    "display_name": "Apple iPhone Duo",
+    "brand": "apple",
+    "brand_label": "Apple",
+    "category": "smartphone",
+    "spec_category": "smartphone",
+    "release_year": 2026,
+    "pixel_density": 3,
+    "devicePixelRatio": 3,
+    "resolution": {
+      "width": 2670,
+      "height": 1878
+    },
+    "screen": {
+      "inches": 7.6,
+      "cm": 19.3,
+      "ppi": 430,
+      "ratio": "14.2:10"
+    },
+    "viewport": {
+      "width": 890,
+      "height": 626,
+      "left": 19,
+      "top": 23,
+      "enableRotation": true
+    },
+    "os": {
+      "name": "iOS",
+      "version": "27.0"
+    },
+    "features": {
+      "keyboard": true,
+      "network": "5G",
+      "curvedEdges": false
+    },
+    "display": {
+      "shadow": true,
+      "maxHeight": 900,
+      "ratio": 0.7
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+    "order": 76
+  }
+]
