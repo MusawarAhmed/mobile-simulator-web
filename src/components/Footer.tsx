@@ -53,6 +53,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
         <p>© {new Date().getFullYear()} Mobile Simulator. Open responsive web testing suite. Zero tracking, zero ads.</p>
         <div className="flex gap-4">
+          <Link href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
           <Link href="/support" className="hover:text-slate-300 transition-colors">Documentation</Link>
           <Link href="/contact" className="hover:text-slate-300 transition-colors">Feedback</Link>
         </div>
