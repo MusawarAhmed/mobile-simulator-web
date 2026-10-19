@@ -6,11 +6,12 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   metadataBase: new URL('https://mobile-simulator-web.vercel.app'),
   title: {
-    default: 'Mobile Simulator — Responsive Testing Tool (77+ Devices)',
-    template: '%s | Mobile Simulator'
+    default: 'Responsive Viewer — Mobile & Tablet Simulator (77+ Devices)',
+    template: '%s | Responsive Viewer'
   },
   description: 'Free responsive testing tool for web developers. Simulate websites on 77+ smartphones, tablets, foldables, and laptops. Viewport resolutions, media queries, and free transparent PNG mockups.',
   keywords: [
+    'responsive viewer',
     'responsive simulator',
     'mobile simulator',
     'viewport sizes',

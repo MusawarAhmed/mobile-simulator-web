@@ -10,10 +10,10 @@ export default function Navbar() {
             <Smartphone className="w-5 h-5" />
           </div>
           <span className="tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-400 bg-clip-text text-transparent">
-            Mobile Simulator
+            Responsive Viewer
           </span>
           <span className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/20">
-            Pro Free
+            Simulator
           </span>
         </Link>
 
