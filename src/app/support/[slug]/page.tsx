@@ -6,6 +6,7 @@ import {
   getSupportArticleBySlug,
 } from '@/data/supportArticles';
 import { CHROME_EXTENSION_URL } from '@/lib/constants';
+import CopyButton from '@/components/CopyButton';
 import {
   ArrowLeft,
   Calendar,
@@ -16,6 +17,8 @@ import {
   ChevronRight,
   Share2,
   Chrome,
+  Terminal,
+  ExternalLink,
 } from 'lucide-react';
 
 type Props = {
@@ -123,6 +126,36 @@ export default async function SupportDetailPage({ params }: Props) {
           {article.content.overview}
         </div>
 
+        {/* Specialized Visual Aid for 'activate-local-files' */}
+        {article.slug === 'activate-local-files' && (
+          <div className="p-6 rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 border border-indigo-500/30 space-y-4">
+            <div className="flex items-center justify-between">
+              <div className="text-xs font-bold uppercase tracking-wider text-indigo-400 flex items-center gap-1.5">
+                <Chrome className="w-4 h-4" />
+                <span>Visual Reference: What the Chrome Setting Looks Like</span>
+              </div>
+              <span className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-medium">
+                Target State
+              </span>
+            </div>
+
+            <div className="p-4 sm:p-5 rounded-xl bg-slate-950 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="space-y-1">
+                <div className="font-bold text-white text-base">Allow access to file URLs</div>
+                <div className="text-xs text-slate-400">
+                  Enables Responsive Viewer to read and simulate local HTML, CSS, and JS files from disk
+                </div>
+              </div>
+              <div className="inline-flex items-center gap-2 self-start sm:self-center">
+                <div className="w-12 h-6 bg-indigo-600 rounded-full flex items-center justify-end px-1 shadow-inner">
+                  <div className="w-4 h-4 bg-white rounded-full shadow" />
+                </div>
+                <span className="text-xs font-bold text-indigo-300">ON (Enabled)</span>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Step by Step Guide */}
         {article.content.steps && article.content.steps.length > 0 && (
           <div className="space-y-6">
@@ -144,9 +177,10 @@ export default async function SupportDetailPage({ params }: Props) {
                   </p>
 
                   {step.code && (
-                    <pre className="p-4 rounded-xl bg-slate-950 border border-slate-800 font-mono text-xs text-indigo-300 overflow-x-auto leading-relaxed mt-2">
-                      <code>{step.code}</code>
-                    </pre>
+                    <div className="mt-3 flex items-center justify-between gap-3 p-3.5 rounded-xl bg-slate-950 border border-slate-800 font-mono text-xs text-indigo-300">
+                      <code className="truncate selection:bg-indigo-500 selection:text-white">{step.code}</code>
+                      <CopyButton text={step.code} label="Copy" className="shrink-0" />
+                    </div>
                   )}
                 </div>
               ))}

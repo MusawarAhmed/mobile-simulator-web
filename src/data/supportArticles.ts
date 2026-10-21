@@ -16,60 +16,67 @@ export interface SupportArticle {
 export const supportArticles: SupportArticle[] = [
   {
     slug: 'activate-local-files',
-    title: 'How to Test Local Files (file:/// URLs)',
+    title: 'How to Test Local Files (file:/// URLs) in Responsive Viewer',
     summary:
-      'Learn how to enable file URL permissions in Chrome so you can test local HTML, CSS, and JS projects directly in Mobile Simulator.',
+      'Step-by-step guide to enabling Chrome file URL permissions so you can test local HTML, CSS, and JS files directly in the simulator.',
     category: 'Permissions & Setup',
-    readTime: '2 min read',
+    readTime: '1 min read',
     updatedAt: 'October 2026',
     content: {
       overview:
-        'By default, Chrome security restricts extensions from reading local files (`file:///` protocol) unless you explicitly grant permission. Enabling this takes less than 30 seconds.',
+        'By default, Google Chrome blocks all browser extensions from accessing local computer files (`file:///` protocol) for security reasons. To preview raw local HTML files in Responsive Viewer, simply turn on Chrome’s built-in "Allow access to file URLs" toggle. It takes under 30 seconds and only needs to be done once.',
       steps: [
         {
           step: 1,
-          title: 'Open Chrome Extensions Page',
+          title: 'Open Chrome Extensions Settings',
           description:
-            'Open a new tab in Google Chrome and navigate to `chrome://extensions` or click the puzzle piece icon in the top right and select "Manage Extensions".',
+            'Open a new tab in Google Chrome, copy the URL below, paste it into your browser address bar, and press Enter (or click the puzzle piece icon at the top right of Chrome and choose "Manage Extensions").',
+          code: 'chrome://extensions',
         },
         {
           step: 2,
-          title: 'Find Mobile Simulator & Responsive Tester',
+          title: 'Find "Responsive Viewer"',
           description:
-            'Locate the "Mobile Simulator" extension card and click the "Details" button.',
+            'Scroll to the "Responsive Viewer — Mobile & Tablet Simulator" extension card and click the "Details" button.',
         },
         {
           step: 3,
-          title: 'Toggle "Allow access to file URLs"',
+          title: 'Turn ON "Allow access to file URLs"',
           description:
-            'Scroll down to find the setting labeled "Allow access to file URLs" and switch the toggle to ON (blue).',
+            'Scroll down to the permissions section, locate the toggle labeled "Allow access to file URLs", and switch it to ON (it turns blue).',
         },
         {
           step: 4,
-          title: 'Test Your Local Project',
+          title: 'Open & Test Any Local HTML File',
           description:
-            'Open any local HTML file in Chrome (e.g. `file:///C:/projects/my-site/index.html`) and click the Mobile Simulator extension icon. The simulator will now render your local code immediately!',
+            'Drag and drop your local HTML file into Google Chrome (or double-click it so its URL starts with file:///). Then click the Responsive Viewer extension icon in your toolbar. All 77+ mobile and tablet viewports will now simulate your local project instantly!',
+          code: 'file:///C:/Users/your-name/projects/index.html',
         },
       ],
       notes: [
-        'You only need to do this once per browser installation.',
-        'If you use a local development server (like `localhost:3000` or `127.0.0.1:8080`), you do NOT need file URL permissions; localhost works automatically out of the box.',
+        'Local dev servers (localhost): If you use Vite, Next.js, React, Live Server, or any localhost URL (e.g. http://localhost:3000), you do NOT need this setting! Localhost works automatically out of the box.',
+        'Refresh active tabs: If you already had a file:/// file open in a tab before toggling this switch, refresh the page once (F5 or Ctrl+R) to apply permissions.',
+        'One-time setup: You only need to enable this toggle once per Chrome installation.',
       ],
       faq: [
         {
-          q: 'Why does Chrome require this toggle?',
-          a: 'Chrome enforces this security restriction to ensure no extension can access private local files on your computer without your explicit consent.',
+          q: 'Why does Google Chrome require this setting?',
+          a: 'Chrome enforces this security restriction to prevent malicious extensions from reading confidential documents on your hard drive without your explicit authorization.',
         },
         {
-          q: 'Does this work with Vite, Next.js, or Webpack dev servers?',
-          a: 'Yes, localhost servers work out-of-the-box without needing any special file URL permissions.',
+          q: 'Do I need to enable this for localhost or 127.0.0.1?',
+          a: 'No. Local dev servers running on localhost:3000, 127.0.0.1, or custom ports work immediately without any extra configuration.',
+        },
+        {
+          q: 'Is my local code sent to any external server?',
+          a: 'Never. Responsive Viewer operates entirely locally inside your browser. No files, code, or telemetry are ever uploaded or transmitted.',
         },
       ],
     },
   },
   {
     slug: 'media-queries-not-working',
-    title: 'Why Are CSS Media Queries Not Working in Mobile Simulator?',
+    title: 'Why Are CSS Media Queries Not Working in Responsive Viewer?',
     summary:
       'Fix common viewport issues where your website desktop layout is rendered instead of responsive mobile styles.',
     category: 'Responsive Troubleshooting',
@@ -119,27 +126,28 @@ export const supportArticles: SupportArticle[] = [
   },
   {
     slug: 'activate-shortcut',
-    title: 'How to Configure Keyboard Shortcuts for Mobile Simulator',
+    title: 'How to Configure Keyboard Shortcuts for Responsive Viewer',
     summary:
-      'Set custom hotkeys (e.g. Ctrl+Shift+M or Cmd+Shift+M) to toggle Mobile Simulator on and off in one keypress.',
+      'Set custom hotkeys (e.g. Ctrl+Shift+M or Cmd+Shift+M) to toggle Responsive Viewer on and off in one keypress.',
     category: 'Productivity & Tips',
     readTime: '2 min read',
     updatedAt: 'October 2026',
     content: {
       overview:
-        'You can bind any custom keyboard shortcut in Chrome to activate or close Mobile Simulator instantly without clicking the toolbar icon.',
+        'You can bind any custom keyboard shortcut in Chrome to activate or close Responsive Viewer instantly without clicking the toolbar icon.',
       steps: [
         {
           step: 1,
           title: 'Navigate to Chrome Keyboard Shortcuts',
           description:
             'Open a new tab and paste `chrome://extensions/shortcuts` into the address bar, then press Enter.',
+          code: 'chrome://extensions/shortcuts',
         },
         {
           step: 2,
-          title: 'Locate Mobile Simulator',
+          title: 'Locate Responsive Viewer',
           description:
-            'Find "Mobile Simulator & Responsive Tester" in the list of extensions.',
+            'Find "Responsive Viewer — Mobile & Tablet Simulator" in the list of installed extensions.',
         },
         {
           step: 3,
@@ -167,7 +175,7 @@ export const supportArticles: SupportArticle[] = [
   },
   {
     slug: 'activate-incognito-mode',
-    title: 'How to Enable Mobile Simulator in Incognito Windows',
+    title: 'How to Enable Responsive Viewer in Incognito Windows',
     summary:
       'Test your responsive pages in private browsing mode with fresh cache and zero cookie interference.',
     category: 'Permissions & Setup',
@@ -181,7 +189,8 @@ export const supportArticles: SupportArticle[] = [
           step: 1,
           title: 'Open Extension Settings',
           description:
-            'Go to `chrome://extensions` in Chrome and click "Details" under Mobile Simulator.',
+            'Go to `chrome://extensions` in Chrome and click "Details" under Responsive Viewer.',
+          code: 'chrome://extensions',
         },
         {
           step: 2,
@@ -193,7 +202,7 @@ export const supportArticles: SupportArticle[] = [
           step: 3,
           title: 'Open an Incognito Window',
           description:
-            'Press `Ctrl + Shift + N` (or `Cmd + Shift + N` on Mac). The Mobile Simulator icon will now appear in your incognito toolbar ready to test.',
+            'Press `Ctrl + Shift + N` (or `Cmd + Shift + N` on Mac). The Responsive Viewer icon will now appear in your incognito toolbar ready to test.',
         },
       ],
       notes: [
@@ -217,7 +226,7 @@ export const supportArticles: SupportArticle[] = [
     updatedAt: 'October 2026',
     content: {
       overview:
-        'Mobile operating systems (iOS and Android) typically hide scrollbars until the user actively scrolls. Mobile Simulator lets you choose between native thin scrollbars or permanent scrollbars.',
+        'Mobile operating systems (iOS and Android) typically hide scrollbars until the user actively scrolls. Responsive Viewer lets you choose between native thin scrollbars or permanent scrollbars.',
       steps: [
         {
           step: 1,
@@ -255,13 +264,13 @@ export const supportArticles: SupportArticle[] = [
     slug: 'subscription-doesnt-work-on-chrome',
     title: 'Features & Pro Edition Status',
     summary:
-      'Information on device availability, Pro features, and unlocked status in this edition of Mobile Simulator.',
+      'Information on device availability, Pro features, and unlocked status in this edition of Responsive Viewer.',
     category: 'Account & Plans',
     readTime: '2 min read',
     updatedAt: 'October 2026',
     content: {
       overview:
-        'In this edition of Mobile Simulator, all premium features, high-resolution device mockups, screencasts, and developer tools are completely unlocked and free for your use.',
+        'In this edition of Responsive Viewer, all premium features, high-resolution device mockups, screencasts, and developer tools are completely unlocked and free for your use.',
       steps: [
         {
           step: 1,
