@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     'free phone mockups',
     'transparent png mockup'
   ],
-  authors: [{ name: 'Mobile Simulator' }],
-  creator: 'Mobile Simulator',
-  publisher: 'Mobile Simulator',
+  authors: [{ name: 'Responsive Viewer' }],
+  creator: 'Responsive Viewer',
+  publisher: 'Responsive Viewer',
   robots: {
     index: true,
     follow: true,
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://mobile-simulator-web.vercel.app',
-    title: 'Mobile Simulator — Responsive Web Testing Suite',
+    title: 'Responsive Viewer — Mobile & Tablet Simulator',
     description: 'Test responsive design on 77+ smartphones, tablets, and laptops. Accurate viewports, user agents, and transparent frame mockups.',
-    siteName: 'Mobile Simulator',
+    siteName: 'Responsive Viewer',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mobile Simulator — Responsive Web Testing Suite',
+    title: 'Responsive Viewer — Mobile & Tablet Simulator',
     description: 'Test responsive design on 77+ smartphones, tablets, and laptops.',
   },
   verification: {

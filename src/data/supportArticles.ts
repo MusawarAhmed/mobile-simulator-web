@@ -220,7 +220,7 @@ export const supportArticles: SupportArticle[] = [
     slug: 'show-scrollbar',
     title: 'How to Show or Hide Scrollbars in Simulator Mode',
     summary:
-      'Configure scrollbar behavior in the mobile simulator to emulate native iOS/Android overlay scrollbars or desktop scrollbars.',
+      'Configure scrollbar behavior in Responsive Viewer to emulate native iOS/Android overlay scrollbars or desktop scrollbars.',
     category: 'Display & Settings',
     readTime: '2 min read',
     updatedAt: 'October 2026',

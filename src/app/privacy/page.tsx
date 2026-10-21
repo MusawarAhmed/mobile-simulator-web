@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ShieldCheck, Lock, EyeOff, Server, FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — Mobile Simulator & Responsive Tester',
-  description: 'Privacy Policy for Mobile Simulator & Responsive Tester Chrome Extension and Web Platform.',
+  title: 'Privacy Policy — Responsive Viewer — Mobile & Tablet Simulator',
+  description: 'Privacy Policy for Responsive Viewer — Mobile & Tablet Simulator Chrome Extension and Web Platform.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
           Privacy Policy
         </h1>
         <p className="text-sm text-slate-400">
-          Last updated: {lastUpdated} &bull; Applies to Mobile Simulator Chrome Extension and Website
+          Last updated: {lastUpdated} &bull; Applies to Responsive Viewer Chrome Extension and Website
         </p>
       </div>
 
@@ -33,7 +33,7 @@ export default function PrivacyPolicyPage() {
             1. Zero Personal Data Collection
           </h2>
           <p>
-            Mobile Simulator & Responsive Tester is designed with a strict privacy-first architecture. We do <strong>not</strong> collect, store, sell, or transmit any personally identifiable information (PII), browsing history, keystrokes, form submissions, or account credentials.
+            Responsive Viewer — Mobile & Tablet Simulator is designed with a strict privacy-first architecture. We do <strong>not</strong> collect, store, sell, or transmit any personally identifiable information (PII), browsing history, keystrokes, form submissions, or account credentials.
           </p>
           <p>
             All website responsive rendering, viewport simulation, device orientation changes, and media query inspections occur <strong>100% locally</strong> inside your browser sandbox.
