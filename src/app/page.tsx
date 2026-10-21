@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { getAllDevices } from '@/lib/devices';
 import DeviceCatalog from '@/components/DeviceCatalog';
-import { Smartphone, Monitor, ShieldCheck, Download, Code2, Sparkles, ArrowRight } from 'lucide-react';
+import { Smartphone, Monitor, ShieldCheck, Download, Code2, Sparkles, ArrowRight, Chrome, Star, CheckCircle2 } from 'lucide-react';
+import { CHROME_EXTENSION_URL } from '@/lib/constants';
 
 export default function HomePage() {
   const allDevices = getAllDevices();
@@ -9,7 +10,7 @@ export default function HomePage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: 'Mobile Simulator & Responsive Tester',
+    name: 'Responsive Viewer — Mobile & Tablet Simulator',
     operatingSystem: 'Windows, macOS, Linux, Chrome OS',
     applicationCategory: 'DeveloperApplication',
     offers: {
@@ -57,17 +58,26 @@ export default function HomePage() {
 
             <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
               <a
+                href={CHROME_EXTENSION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3.5 rounded-xl font-bold bg-gradient-to-r from-sky-500 via-indigo-600 to-indigo-700 hover:from-sky-400 hover:to-indigo-600 text-white shadow-xl shadow-sky-500/25 transition-all hover:scale-[1.02] flex items-center gap-2.5"
+              >
+                <Chrome className="w-5 h-5 text-white" />
+                <span>Add to Chrome — Free Extension</span>
+              </a>
+              <a
                 href="#catalog"
-                className="px-6 py-3 rounded-xl font-medium bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/30 transition-all flex items-center gap-2"
+                className="px-6 py-3.5 rounded-xl font-medium bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 transition-all flex items-center gap-2"
               >
                 Browse All 77 Devices
                 <ArrowRight className="w-4 h-4" />
               </a>
               <Link
                 href="/support/activate-local-files"
-                className="px-6 py-3 rounded-xl font-medium bg-slate-800/80 hover:bg-slate-700 text-slate-200 border border-slate-700 transition-all"
+                className="px-6 py-3.5 rounded-xl font-medium bg-slate-900/80 hover:bg-slate-800 text-slate-300 border border-slate-800 transition-all"
               >
-                Setup Local File Testing
+                Local File Testing
               </Link>
             </div>
           </div>
@@ -129,6 +139,51 @@ export default function HomePage() {
         {/* Catalog Section */}
         <section id="catalog" className="pt-4">
           <DeviceCatalog initialDevices={allDevices} />
+        </section>
+
+        {/* Direct Extension Download Banner */}
+        <section id="download" className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-sky-900/40 via-indigo-950 to-slate-900 p-8 sm:p-12 border border-sky-500/30">
+          <div className="max-w-3xl mx-auto text-center space-y-6">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-sky-500/10 text-sky-300 border border-sky-500/20">
+              <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+              <span>Free on the Official Google Chrome Web Store</span>
+            </div>
+
+            <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+              Get Responsive Viewer for Google Chrome
+            </h2>
+
+            <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto">
+              Test your websites directly in your browser with 1-click simulator toggling, instant orientation flipping, screenshot capture, screencast recording, and full media queries support.
+            </p>
+
+            <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
+              <a
+                href={CHROME_EXTENSION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 rounded-xl font-bold text-base bg-gradient-to-r from-sky-500 via-indigo-600 to-indigo-700 hover:from-sky-400 hover:to-indigo-600 text-white shadow-xl shadow-sky-500/25 transition-all hover:scale-105 flex items-center gap-3"
+              >
+                <Chrome className="w-6 h-6 text-white" />
+                <span>Add to Chrome — It&apos;s 100% Free</span>
+              </a>
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-6 pt-4 text-xs text-slate-400">
+              <div className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                <span>Zero Ads or Paywalls</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                <span>77+ Verified Devices</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                <span>Works on Localhost & File URLs</span>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </>

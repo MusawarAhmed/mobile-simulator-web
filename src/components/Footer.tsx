@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Smartphone } from 'lucide-react';
+import { Smartphone, Chrome, ExternalLink } from 'lucide-react';
+import { CHROME_EXTENSION_URL, BLUEPRINT_SEO_URL } from '@/lib/constants';
 
 export default function Footer() {
   return (
@@ -10,11 +11,23 @@ export default function Footer() {
             <div className="w-7 h-7 rounded-lg bg-sky-500 flex items-center justify-center text-white">
               <Smartphone className="w-4 h-4" />
             </div>
-            <span>Mobile Simulator</span>
+            <span>Responsive Viewer</span>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
             The free, standalone responsive testing tool for developers and designers. Test on 77+ mobile phones, tablets, foldables, and computers with 100% unlocked features.
           </p>
+          <div className="pt-2">
+            <a
+              href={CHROME_EXTENSION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 border border-sky-500/30 transition-all"
+            >
+              <Chrome className="w-3.5 h-3.5" />
+              <span>Get Chrome Extension</span>
+              <ExternalLink className="w-3 h-3" />
+            </a>
+          </div>
         </div>
 
         <div>
@@ -39,19 +52,40 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-200 mb-3">Guides & Support</h4>
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-200 mb-3">Extensions & Guides</h4>
           <ul className="space-y-2 text-xs">
+            <li>
+              <a
+                href={CHROME_EXTENSION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-sky-300 font-semibold transition-colors flex items-center gap-1.5"
+              >
+                <Chrome className="w-3.5 h-3.5 text-sky-400" />
+                <span>Responsive Viewer Extension</span>
+                <span className="text-[10px] bg-sky-500/20 text-sky-300 px-1.5 py-0.2 rounded font-normal">Live</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href={BLUEPRINT_SEO_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sky-400 hover:text-sky-300 font-medium transition-colors flex items-center gap-1"
+              >
+                <span>Blue Print SEO Extension</span> &rarr;
+              </a>
+            </li>
             <li><Link href="/support/activate-local-files" className="hover:text-white transition-colors">Test Local Files (file:///)</Link></li>
             <li><Link href="/support/media-queries-not-working" className="hover:text-white transition-colors">Media Queries Troubleshooting</Link></li>
             <li><Link href="/support/activate-shortcut" className="hover:text-white transition-colors">Keyboard Hotkeys Setup</Link></li>
             <li><Link href="/contact" className="hover:text-white transition-colors">Report a Bug / Suggestion</Link></li>
-            <li><a href="https://chromewebstore.google.com/detail/blue-print-seo/ncnkeccgljibjfeocaaalojilahfibnc" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-sky-300 font-medium transition-colors flex items-center gap-1"><span>Blue Print SEO Extension</span> &rarr;</a></li>
           </ul>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-        <p>© {new Date().getFullYear()} Mobile Simulator. Open responsive web testing suite. Zero tracking, zero ads.</p>
+        <p>© {new Date().getFullYear()} Responsive Viewer — Mobile & Tablet Simulator. Open responsive web testing suite. Zero tracking, zero ads.</p>
         <div className="flex gap-4">
           <Link href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
           <Link href="/support" className="hover:text-slate-300 transition-colors">Documentation</Link>

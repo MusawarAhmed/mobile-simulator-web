@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Smartphone, Download, HelpCircle, MessageSquare } from 'lucide-react';
+import { Smartphone, Download, HelpCircle, MessageSquare, Chrome } from 'lucide-react';
+import { CHROME_EXTENSION_URL } from '@/lib/constants';
 
 export default function Navbar() {
   return (
@@ -21,6 +22,15 @@ export default function Navbar() {
           <Link href="/#catalog" className="hover:text-white transition-colors">
             Devices (77)
           </Link>
+          <a
+            href={CHROME_EXTENSION_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-sky-400 transition-colors flex items-center gap-1.5"
+          >
+            <Chrome className="w-4 h-4 text-sky-400" />
+            Chrome Extension
+          </a>
           <Link href="/support" className="hover:text-white transition-colors flex items-center gap-1.5">
             <HelpCircle className="w-4 h-4 text-slate-400" />
             Support & Guides
@@ -32,13 +42,15 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/#download"
+          <a
+            href={CHROME_EXTENSION_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white shadow-md shadow-sky-500/20 transition-all hover:shadow-sky-500/30 hover:scale-[1.02]"
           >
             <Download className="w-4 h-4" />
             <span>Install Extension</span>
-          </Link>
+          </a>
         </div>
       </div>
     </header>

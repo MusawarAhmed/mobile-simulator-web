@@ -5,6 +5,7 @@ import {
   getAllSupportArticles,
   getSupportArticleBySlug,
 } from '@/data/supportArticles';
+import { CHROME_EXTENSION_URL } from '@/lib/constants';
 import {
   ArrowLeft,
   Calendar,
@@ -14,6 +15,7 @@ import {
   HelpCircle,
   ChevronRight,
   Share2,
+  Chrome,
 } from 'lucide-react';
 
 type Props = {
@@ -190,10 +192,19 @@ export default async function SupportDetailPage({ params }: Props) {
         {/* Bottom Help Box */}
         <div className="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 mt-8">
           <div>
-            <div className="text-white font-bold text-sm">Did this solve your issue?</div>
-            <p className="text-xs text-slate-400">If you need further assistance, let us know.</p>
+            <div className="text-white font-bold text-sm">Need the extension to get started?</div>
+            <p className="text-xs text-slate-400">Download Responsive Viewer free from Google Chrome Web Store.</p>
           </div>
           <div className="flex items-center gap-3">
+            <a
+              href={CHROME_EXTENSION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white text-xs font-semibold shadow-md transition-all flex items-center gap-1.5"
+            >
+              <Chrome className="w-3.5 h-3.5" />
+              <span>Get Chrome Extension</span>
+            </a>
             <Link
               href="/contact"
               className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium border border-slate-700 transition-all"
@@ -202,9 +213,9 @@ export default async function SupportDetailPage({ params }: Props) {
             </Link>
             <Link
               href="/support"
-              className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-medium transition-all"
+              className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium border border-slate-700 transition-all"
             >
-              Browse All Guides
+              All Guides
             </Link>
           </div>
         </div>

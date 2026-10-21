@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { getAllSupportArticles } from '@/data/supportArticles';
+import { CHROME_EXTENSION_URL } from '@/lib/constants';
 import {
   HelpCircle,
   FileCode,
@@ -10,6 +11,7 @@ import {
   ArrowRight,
   BookOpen,
   MessageSquare,
+  Chrome,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -35,6 +37,17 @@ export default function SupportIndexPage() {
         <p className="text-slate-400 text-base leading-relaxed">
           Find step-by-step solutions for testing local files, troubleshooting responsive media queries, and configuring keyboard shortcuts.
         </p>
+        <div className="pt-2">
+          <a
+            href={CHROME_EXTENSION_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white shadow-md shadow-sky-500/20 transition-all hover:scale-105"
+          >
+            <Chrome className="w-4 h-4 text-white" />
+            <span>Install Extension from Chrome Web Store</span>
+          </a>
+        </div>
       </div>
 
       {/* Quick Category Cards */}

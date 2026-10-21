@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { getAllDevices, getDeviceBySlug } from '@/lib/devices';
 import CopyButton from '@/components/CopyButton';
+import { CHROME_EXTENSION_URL } from '@/lib/constants';
 import {
   Smartphone,
   Monitor,
@@ -16,6 +17,8 @@ import {
   ArrowLeft,
   CheckCircle2,
   Share2,
+  Chrome,
+  ExternalLink,
 } from 'lucide-react';
 
 type Props = {
@@ -170,9 +173,18 @@ export default async function DeviceDetailPage({ params }: Props) {
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
+            <a
+              href={CHROME_EXTENSION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-medium shadow-lg shadow-sky-500/20 transition-all flex items-center gap-2"
+            >
+              <Chrome className="w-4 h-4 text-white" />
+              <span>Test in Chrome Extension</span>
+            </a>
             <Link
               href={`/mockups/${device.slug}`}
-              className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium shadow-lg shadow-indigo-600/30 transition-all flex items-center gap-2"
+              className="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium border border-slate-700 transition-all flex items-center gap-2"
             >
               <Download className="w-4 h-4" />
               Download Mockup PNG
@@ -370,6 +382,31 @@ export default async function DeviceDetailPage({ params }: Props) {
               )}
             </div>
           </div>
+        </div>
+
+        {/* Extension Promo Banner */}
+        <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-sky-950/40 via-indigo-950/40 to-slate-900 border border-sky-500/30 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="space-y-1.5 text-center sm:text-left">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-sky-500/10 text-sky-400 border border-sky-500/20">
+              <Chrome className="w-3.5 h-3.5" />
+              <span>Free Chrome Extension</span>
+            </div>
+            <h3 className="text-xl font-bold text-white">
+              Test your website on {device.display_name} in 1 click
+            </h3>
+            <p className="text-sm text-slate-300 max-w-xl">
+              Install the Responsive Viewer extension to simulate {device.display_name}&apos;s {device.viewport.width}&times;{device.viewport.height} viewport and DPR directly on any active browser tab.
+            </p>
+          </div>
+          <a
+            href={CHROME_EXTENSION_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-semibold shadow-lg shadow-sky-500/20 transition-all flex items-center gap-2 shrink-0 hover:scale-105"
+          >
+            <Chrome className="w-5 h-5" />
+            <span>Install Extension</span>
+          </a>
         </div>
 
         {/* Related Devices */}

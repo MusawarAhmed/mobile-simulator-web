@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { getAllDevices, getDeviceBySlug } from '@/lib/devices';
+import { CHROME_EXTENSION_URL } from '@/lib/constants';
 import {
   Download,
   ArrowLeft,
@@ -11,6 +12,7 @@ import {
   CheckCircle,
   ExternalLink,
   Info,
+  Chrome,
 } from 'lucide-react';
 
 type Props = {
@@ -140,6 +142,15 @@ export default async function MockupDetailPage({ params }: Props) {
             >
               <Download className="w-5 h-5" />
               Download PNG
+            </a>
+            <a
+              href={CHROME_EXTENSION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-medium shadow-lg shadow-sky-500/20 transition-all flex items-center gap-2 text-sm"
+            >
+              <Chrome className="w-4 h-4 text-white" />
+              <span>Test Live in Extension</span>
             </a>
             <Link
               href={`/devices/${device.slug}`}
