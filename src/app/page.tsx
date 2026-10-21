@@ -27,11 +27,54 @@ export default function HomePage() {
     },
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'What is the best free Responsive Viewer and Mobile Simulator for Google Chrome?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Responsive Viewer — Mobile & Tablet Simulator is the premier free Google Chrome extension for testing responsive web design. It features 77+ physical device frames (iPhone, Samsung Galaxy, Google Pixel, iPad, foldables) with authentic CSS viewports, DPR, transparent mockup exports, and local file testing with zero ads or subscriptions.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I test mobile and tablet viewports in Chrome?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Install the free Responsive Viewer extension from the Chrome Web Store, click the extension icon on any active browser tab, and select from 77+ mobile phones, tablets, or desktop screen sizes to instantly simulate mobile responsive layouts.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is Responsive Viewer completely free without paywalls or subscriptions?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Unlike other mobile simulators that place new devices or mockup downloads behind monthly paid plans, Responsive Viewer is 100% free and unlocked with zero paywalls.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Does Responsive Viewer support localhost and local HTML files?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Responsive Viewer natively supports localhost:3000, 127.0.0.1, Vite, React, Next.js, and local file:/// HTML files when file permissions are enabled.',
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
       <div className="space-y-16 py-8">
